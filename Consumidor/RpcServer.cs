@@ -65,9 +65,6 @@ namespace Consumidor
             Console.WriteLine(" Press [enter] to exit.");
             Console.ReadLine();
 
-            // Assumes only valid positive integer input.
-            // Don't expect this one to work for big numbers,
-            // and it's probably the slowest recursive implementation possible.
             static int Fib(int n)
             {
                 if (n is 0 or 1)
